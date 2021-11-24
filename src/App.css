@@ -1,0 +1,72 @@
+.popular-card-img {
+  width: 16.5rem;
+  height: 22rem;
+}
+.img-size {
+  width: 13.166rem;
+  height: 17.555rem;
+}
+.card-size {
+  width: 13.166rem;
+  height: 17.555rem;
+
+}
+.percentage-box {
+  bottom: -1.35rem;
+  right: -1px;
+}
+.game-img {
+  width: 16.566rem;
+  height: 22rem;
+}
+.upcoming-img-box {
+  width: 15.563rem !important;
+  height: 20.75rem !important;
+}
+.searchbtn:hover {
+  cursor: pointer;
+}
+
+.list-group {
+  background-color: rgb(70, 73, 112);
+  display: block;
+  list-style-type: none;
+  margin: 0 0 0 10px;
+  padding: 0;
+  position: absolute;
+  width: 240px;
+  z-index: 1;
+}
+
+.list-group > li {
+  border-color: rgb(15, 1, 1);
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 1px 1px 0;
+  padding-left: 5px;
+}
+
+.list-group > li:last-child {
+border-bottom: 1px solid rgb(15, 1, 1);
+}
+
+.form-control:focus + .list-group {
+display: block; 
+}
+.list-group:focus{
+  background-color: aliceblue;
+}
+@media (max-width: 1025px) {
+  .img-size {
+    width: 16.5rem;
+    height: 22rem;
+  }
+  .percentage-box {
+    bottom: -0.65rem;
+    right: -1px;
+  }
+  .card-size {
+    width: 16.5rem;
+    height: 23.75rem;
+  }
+}
